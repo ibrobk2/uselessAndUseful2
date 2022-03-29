@@ -1,0 +1,41 @@
+body{
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: white;
+    text-align: center;
+    margin: 120px 400px 0 400px;
+    padding: 30px;
+    
+}
+
+form .form-element{
+    
+    text-align: center;
+    margin-top: 10px;
+}
+
+input{
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid blue;
+    background-color: #f1f5f8;
+}
+h3{
+    color:blue;
+}
+
+input[type="submit"], input[type="reset"]{
+    background-color: blue;
+    color: white;
+}
+
+input[type="checkbox"], input[type="radio"]{
+    background-color: red;
+    color: white;
+    background-color: red;
+    padding: 22px;
+}

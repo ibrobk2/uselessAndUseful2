@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body{
+            background-color: grey;
+            font-family: 'rubik', sans-serif;
+        }
+
+        .container{
+            background-color: #fff;
+            margin: 80px 350px 0 350px;
+            text-align: center;
+            padding: 12px 0 12px 0;
+        }
+
+        button{
+            padding: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+            outline: none;
+        }
+        #on{
+            background-color: green;
+            color: white;
+            border-radius: 3px;
+        }
+        #off{
+            background-color: red;
+            color: white;
+            border-radius: 3px;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Useless and Useful App</title>
+    <script src="useless.js"></script>
+</head>
+<body>
+    <div class="container">
+        <img src="pic_bulboff.gif" alt="" id="pic">
+        <h3 id="txt">Light Off</h3>
+        <button id="on" onclick="on();">On</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button id="off" onclick="off();">Off</button>
+    </div>
+</body>
+</html>

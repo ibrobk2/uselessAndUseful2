@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to JS</title>
+</head>
+<body>
+  <h3 id="txt"></h3>
+    <form action="">
+        <input type="text" placeholder="Enter Username" id="user"><br><br>
+        <input type="password" name="" id="" placeholder="Enter Password" id="pass"><br><br>
+        <button onclick="test();">Submit</button>
+    </form>
+    <script>
+        // alert("Welcome to Katsina");
+         // prompt("Enter Your Name:");
+
+         //var username = "Amina";
+
+        //  var username;
+        //  username = "Amina";
+
+        //  var x = 45;
+        //  var y = 80;
+        //  var z = x+y;
+        //  console.log(username);
+
+        function test(){
+            var username = document.getElementById('user').value;
+            var password = document.getElementById('pass').value;
+            document.getElementById('txt').innerHTML = username;
+        }
+
+    
+
+     </script>
+    <!-- <h3 id="x" onclick="document.getElementById('x').innerHTML='Welcome to proxy';document.getElementById('x').style='color:green'">Hello, Click here to change the text</h3> -->
+</body>
+</html>
